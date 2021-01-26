@@ -13,5 +13,5 @@ jobs:
     steps:
       - name: Echo context
         run: |
-          echo "${{ github.run_number }}"
+          echo "${{ github }}"
       
