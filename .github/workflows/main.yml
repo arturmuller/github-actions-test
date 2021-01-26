@@ -1,0 +1,17 @@
+name: Main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main:
+    name: Try Out Expressions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Echo context
+        run: |
+          echo "${{ github.run_id }}"
+      
