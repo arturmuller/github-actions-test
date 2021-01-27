@@ -11,7 +11,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Echo context
+      - name: Trigger Error
         run: |
-          echo "${{ github }}"
+          cat nope
+      - name: Handle fail
+        if: failure()
+        run: |
+          echo "Failed to checkout but that's OK..."
+      - name: Success
+        if: success()
+        run: |
+          echo "This went well..."
+      - name: Is this gonna run?
+        run: |
+          echo "Let' see what this does..."
+          
+          
       
