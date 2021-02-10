@@ -1,6 +1,6 @@
 {
   "name": "github-actions-test",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Testing GH actions",
   "main": "index.js",
   "scripts": {
