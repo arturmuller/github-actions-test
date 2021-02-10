@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-test",
+  "version": "0.0.0",
+  "description": "Testing GH actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturmuller/github-actions-test.git"
+  },
+  "author": "Artur Müller <me@arturmuller.com> (http://arturmuller.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturmuller/github-actions-test/issues"
+  },
+  "homepage": "https://github.com/arturmuller/github-actions-test#readme"
+}
